@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Biodata Teman Saya</h1>
+    <table border="1"> <thead>
+        <tr>
+            <th>No.</th>
+            <th>Nama</th>
+            <th>No. Telepon</th>
+            <th>Tanggal Lahir</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">1</td>
+            <td>Rista Wiranti Cahya Putri</td>
+            <td align="center">0857-9178-7377</td>
+            <td align="center">17 Maret 2008</td>
+        </tr>
+        <tr>
+            <td align="center">2</td>
+            <td>Rosyidah Luthfiyatul Lailah</td>
+            <td align="center">0838-5319-9048</td>
+            <td align="center">21 Juli 2008</td>
+        </tr>
+        <tr>
+            <td align="center">3</td>
+            <td>Nadila Syofrotin Nisa</td>
+            <td align="center">0815-1586-6043</td>
+            <td align="center">15 Agustus 2008</td>
+        </tr>
+        <tr>
+            <td align="center">4</td>
+            <td>Nadia Hanum Pratiwi</td>
+            <td align="center">0851-8465-9583</td>
+            <td align="center">21 November 2008</td>
+        </tr>
+        <tr>
+            <td align="center">5</td>
+            <td>Yolla Distihany Onerisino</td>
+            <td align="center">0823-3645-2375</td>
+            <td align="center">21 Desember 2008</td>
+        </tr>
+        <tr>
+            <td align="center">6</td>
+            <td>Suci Endah Salimah</td>
+            <td align="center">0895-8091-08050</td>
+            <td align="center">11 Mei 2009</td>
+        </tr>
+        <tr>
+            <td align="center">7</td>
+            <td>Reffi Nur Indriani</td>
+            <td align="center">0857-0742-1718</td>
+            <td align="center">23 Juli 1994</td>
+        </tr>
+        <tr>
+            <td align="center">8</td>
+            <td>Rika Budi Purnamasari </td>
+            <td align="center">0856-4546-2336</td>
+            <td align="center">26 Juli 1997</td>
+        </tr>
+        <tr>
+            <td align="center">9</td>
+            <td>Joko Suwarno</td>
+            <td align="center">0857-8482-6410</td>
+            <td align="center">31 Mei 1993</td>
+        </tr>
+        <tr>
+            <td align="center">10</td>
+            <td>Riko Ody Andrias</td>
+            <td align="center">0815-5493-0108</td>
+            <td align="center">17 April 1996</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <h1>Formulir Feedback</h1> 
+    <form action="/submit-form" method="post"> 
+        <label for="nama">Nama Lengkap:</label><br> 
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama 
+Anda"><br><br> 
+ 
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" 
+placeholder="contoh@kucinghitam.com"><br><br> 
+ 
+        <label for="saran">Komentar/Saran Anda:</label><br> 
+        <textarea id="saran" name="saran" rows="4" cols="50" placeholder="Tulis komentar/saran 
+Anda di sini"></textarea><br><br> 
+ 
+        <label for="materi">Apakah Anda puas dengan materi ini?</label><br> 
+        <input type="radio" id="ya" name="materi" value="ya"> 
+        <label for="ya">Ya</label><br>
+        <input type="radio" id="tidak" name="materi" value="tidak"> 
+        <label for="tidak">Tidak</label><br><br> 
+ 
+        <label for="topik">Topik yang ingin dipelajari selanjutnya:</label><br> 
+        <input type="checkbox" id="Perang Palestina" name="topik[]" value="Perang Palestina"> 
+        <label for="Perang Palestina">Perang Palestina</label><br> 
+        <input type="checkbox" id="Demo DPR" name="topik[]" value="Demo DPR"> 
+        <label for="Demo DPR">Demo DPR</label><br> 
+        <input type="checkbox" id="Inggris sebagai Bahasa Nasional" name="topik[]" value="Inggris sebagai Bahasa Nasional"> 
+        <label for="Inggris sebagai Bahasa Nasional">Inggris sebagai Bahasa Nasional</label><br><br> 
+ 
+        <label for="prodi">Konsentrasi Keahlian:</label><br> 
+        <select id="prodi" name="prodi"> 
+            <option value="">Pilih Jurusan</option> 
+            <option value="pgim">Pengembangan Gim</option> 
+            <option value="akl">Akutansi dan Keuangan Lembaga</option> 
+            <option value="bd">Bisnis Digital</option> 
+            <option value="titl">Teknik Instalasi Tenaga Listrik</option> 
+            <option value="tlas">Teknik Pengelasan</option> 
+            <option value="tkj">Teknik Komputer Jaringan</option> 
+            <option value="tpm">Teknik Pemesinan</option> 
+        </select><br><br> 
+ 
+        <input type="submit" value="Kirim Feedback"> 
+    </form> 
+</body>
+</html>
